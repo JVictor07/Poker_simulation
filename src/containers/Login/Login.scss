@@ -1,0 +1,49 @@
+.main-login {
+  background: url("https://i.imgur.com/P96Gotp.jpg") no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login {
+  display: block;
+  margin-top: -250px;
+
+  &__error {
+    text-transform: uppercase;
+    display: block;
+    margin-top: 15px;
+    color: red;
+  }
+
+  &__title {
+    color: #fecb4c;
+    text-transform: uppercase;
+    font-size: 42px;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+
+    .form__button{
+      margin-top: 10px;
+      padding: 10px 10px;
+      text-transform: uppercase;
+    
+      background: #fecb4c;
+      border: none;
+      border-radius: 5px;
+      text-align: center;
+      text-decoration: none;
+      color: black;
+    }
+  }
+
+  &__form input{
+    padding: 10px 20px;
+  }
+}
